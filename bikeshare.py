@@ -203,8 +203,8 @@ def main():
         if ind_trip_data.lower() in ('yes','y'):
             i = 0
             while ind_trip_data.lower() in ('yes','y'):
-                print(df[i:i+5])
-                i += 5
+                print(df[i:i+10])
+                i += 10
                 ind_trip_data = input('\nWould you like to see individual trip data? Enter yes or no.\n')
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
